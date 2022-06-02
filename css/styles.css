@@ -1,0 +1,55 @@
+/*  Синий цвет #2196F3 */
+/*  Цвет золовка #FFFFFF */
+/* Основной цвет текста #757575 */
+/*  Вторичный цвет текста #212121 */
+/*  Цвет  адреса в шапке #757575 */
+/*  Цвет адреса в Подвале rgba(255, 255, 255, 0.6) */
+/* Цвет фона команда #F5F4FA */
+/* фон героя и вутера #2F303A */
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --background-heder: #FFF;
+    --background-footer: #2F303A;
+}
+body {
+    background: #E5E5E5;
+    color: var(--primary-text-color);
+}
+a,
+button {
+    cursor: pointer;
+}
+ul {
+    list-style: none;
+}
+.link:hover,
+.link:focus  {
+    color: var(--accent-color);
+}
+.link {
+    color: var(--primary-text-color);
+    text-decoration: none;
+}
+/* .button {
+    color: ;
+} */
+/* Heder профиля */
+.page-header {
+    background: var(--f);
+}
+.logo {
+    color: #212121;
+    text-decoration: none;
+}
+.logo .logo-color {
+    color: var(--accent-color);
+}
+/* Hero блок  */
+.hero {
+    background: #2F303A;
+}
+.hero-title {
+    color: #FFF;
+}
