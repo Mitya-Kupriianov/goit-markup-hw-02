@@ -2,7 +2,6 @@
 /*  Цвет золовка #FFFFFF */
 /* Основной цвет текста #757575 */
 /*  Вторичный цвет текста #212121 */
-/*  Цвет  адреса в шапке #757575 */
 /*  Цвет адреса в Подвале rgba(255, 255, 255, 0.6) */
 /* Цвет фона команда #F5F4FA */
 /* фон героя и вутера #2F303A */
@@ -11,10 +10,11 @@
     --title-text-color: #212121;
     --accent-color: #2196F3;
     --background-heder: #FFF;
+    --background-main: #E5E5E5;
     --background-footer: #2F303A;
 }
 body {
-    background: #E5E5E5;
+    background: var(--background-main);
     color: var(--primary-text-color);
 }
 a,
@@ -35,21 +35,69 @@ ul {
 /* .button {
     color: ;
 } */
-/* Heder профиля */
+
+/* title h */
+.section-title{
+    color: var(--title-text-color);  
+}
+.title {
+    color: var(--title-text-color);
+}
+.title-off{
+    display: none;
+}
+/* Header профиля */
+
 .page-header {
     background: var(--background-heder);
 }
 .logo {
     color: #212121;
     text-decoration: none;
+
+    /* position: absolute; */
+        width: 145px;
+        height: 31px;
+        left: 215px;
+        top: 1688px;
+    
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 31px;
+        letter-spacing: 0.03em;
 }
 .logo .logo-color {
     color: var(--accent-color);
 }
 /* Hero блок  */
+
 .hero {
     background: #2F303A;
 }
 .hero-title {
     color: #FFF;
+}
+
+/* pageteam */
+.page-team {
+    background: #F5F4FA;
+}
+/* Footer */
+
+.address-text {
+    color: #FFFFFF;
+}
+
+.address-link {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.page-footer {
+    background: var(--background-footer);
+}   
+
+.logo-footer {
+    color: #fff;
 }
