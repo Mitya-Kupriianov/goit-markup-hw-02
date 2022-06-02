@@ -37,7 +37,7 @@ ul {
 } */
 /* Heder профиля */
 .page-header {
-    background: var(--f);
+    background: var(--background-heder);
 }
 .logo {
     color: #212121;
