@@ -33,6 +33,19 @@ ul {
 .link.current {
     color: var(--accent-color);
 }
+.work-cards-link {
+    text-decoration: none;
+}
+.work-cards-link p {
+    color: var(--primary-text-color);
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+}
+
 
 .link {
     color: var(--primary-text-color);
