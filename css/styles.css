@@ -9,6 +9,7 @@
     --primary-text-color: #757575;
     --title-text-color: #212121;
     --accent-color: #2196F3;
+    --background-hover-button-ptimary: #188CE8;
     --background-heder: #FFF;
     --background-main: #E5E5E5;
     --background-footer: #2F303A;
@@ -37,7 +38,9 @@ ul {
     color: var(--primary-text-color);
     text-decoration: none;
 }
-
+.page-nav a {
+    color: var(--title-text-color);
+}
 .header-link {
     font-style: normal;
     font-weight: 500;
@@ -53,7 +56,7 @@ ul {
 .section-title {
     color: var(--title-text-color);
 
-    font-style: 400;
+    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.7;
@@ -62,7 +65,7 @@ ul {
 .title {
     color: var(--title-text-color);
 
-    font-style: 400;
+    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
@@ -70,7 +73,7 @@ ul {
 }
 
 .title-pec {
-    font-style: 400;
+    font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -86,7 +89,7 @@ ul {
     background-color: var(--background-heder);
 }
 .logo {
-    color: #212121;
+    color: var(--title-text-color);
     text-decoration: none;
     
     font-family: 'Raleway';
@@ -102,13 +105,13 @@ ul {
 /* Hero блок  */
 
 .hero {
-    background-color: #2F303A;
+    background-color: var(--background-footer);
 }
 .hero-title {
-    color: #FFF;
+    color: var(--background-heder);
 
     
-    font-style: 400;
+    font-style: normal;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -125,13 +128,13 @@ ul {
 /* Footer */
 
 .address-text {
-    color: #FFFFFF;
+    color: var(--background-heder);
 }
 
 .address-link {
     color: rgba(255, 255, 255, 0.6);
 
-    font-weight: 400;
+    font-weight: 400;   
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
@@ -142,14 +145,23 @@ ul {
 }   
 
 .logo-footer {
-    color: #fff;
+    color: var(--background-heder);
 }
 
 .butto.primary {
-    color: #fff;
+    color: var(--background-heder);
     background-color: var(--accent-color);
 }
-.butto.secondary {
+.primary:hover,
+.primary:focus {
+    background-color: var(--background-hover-button-ptimary);
+}
+.secondary {
     color: var(--title-text-color);
     background-color: #F5F4FA;
+}
+.secondary-hover:hover,
+.secondary-hover:focus {
+    color: var(--background-heder);
+    background-color: var(--accent-color);
 }
