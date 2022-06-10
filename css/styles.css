@@ -15,7 +15,7 @@
     --background-footer: #2F303A;
 }
 body {
-    background-color: var(--background-main);
+    background-color: var(--background-main);       
     color: var(--primary-text-color);
     font-family: Roboto, sans-serif;
     letter-spacing: 0.03em;
@@ -133,7 +133,25 @@ ul {
     letter-spacing: 0.06em;
     text-transform: uppercase;
 }
+.peculiarities-text {
+    margin-top: 0;
 
+    color: var(--primary-text-color);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+.title-cards {
+    color: var(--title-text-color);
+    font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 2;
+        letter-spacing: 0.06em;
+}
 /* pageteam */
 .page-team {
     background-color: #F5F4FA;
