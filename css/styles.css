@@ -19,9 +19,7 @@ body {
     font-family: Roboto, sans-serif;
     letter-spacing: 0.03em;
 }
-main {
-    background-color: var(--background-main);
-}
+
 a,
 button {
     cursor: pointer;
@@ -58,7 +56,6 @@ ul {
     color: var(--title-text-color);
 }
 .header-link {
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -72,7 +69,6 @@ ul {
 .section-title {
     color: var(--title-text-color);
 
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.7;
@@ -81,7 +77,6 @@ ul {
 .title {
     color: var(--title-text-color);
 
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
@@ -89,7 +84,6 @@ ul {
 }
 
 .title-pec {
-    font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -109,7 +103,6 @@ ul {
     text-decoration: none;
     
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
@@ -126,8 +119,6 @@ ul {
 .hero-title {
     color: var(--background-heder);
 
-    
-    font-style: normal;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -140,7 +131,6 @@ ul {
     margin-top: 0;
 
     color: var(--primary-text-color);
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -149,11 +139,10 @@ ul {
 
 .title-cards {
     color: var(--title-text-color);
-    font-style: normal;
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 2;
-        letter-spacing: 0.06em;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
 }
 /* pageteam */
 .page-team {
@@ -181,13 +170,11 @@ ul {
 
 .page-footer {
     background-color: var(--background-footer);
-    font-style: normal;
 }   
 
 .logo-footer {
     color: var(--background-heder);
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
